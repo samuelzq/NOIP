@@ -27,7 +27,7 @@ void dfs(int x, int y, int cost, int p)
 
 	if (a[x][y] <= cost)
 		return; // cut
-	else 
+	else
 		a[x][y] = cost; // replace
 	if (cost > ans)
 		return; // cut

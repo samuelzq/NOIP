@@ -11,17 +11,17 @@ int pow10(int n)
 	for (i = 0; i < n; i++)
 		p *= 10;
 	return p;
-}	
+}
 
 int main()
 {	int n, q, l;
 	cin >> n >> q;
-	
+
 	for (int i = 0; i < n; i++)
 		cin >> code[i];
 	for (int i = 0; i < q; i++)
 		cin >> querry[i][0] >> querry[i][1];
-	
+
 	for (int i = 0; i < q; i++) {
 		int t = 0;
 		l = -1;
